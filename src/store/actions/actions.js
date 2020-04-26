@@ -27,10 +27,19 @@ export const subtract = (arg) => {
     value: arg,
   };
 };
-export const store_result = (arg) => {
+
+export const saveResult = (arg) => {
   return {
     type: STORE_RESULT,
     value: arg,
+  };
+};
+
+export const store_result = (arg) => {
+  return (dispatch) => {
+    setTimeout(() => {
+      dispatch(saveResult(arg));
+    }, 2000);
   };
 };
 
