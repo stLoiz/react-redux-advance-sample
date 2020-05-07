@@ -15,7 +15,7 @@ Specifically in a technical perspective:
 * Handles asychronous code by using the middlware package called [thunk] (https://github.com/reduxjs/redux-thunk)
 * Structures the reducers and actions folder as it can be implemented in bigger projects 
 
-## Available Scripts
+## To run the project
 
 In the project directory, you can run:
 
@@ -27,6 +27,4 @@ It will intall all the required packages from package.json needed for this proje
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
