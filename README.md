@@ -1,6 +1,6 @@
 This is a simple demo project showing best practices of redux advance.
 
-The functinality of the demo project basically is to  increase, subtract, add a number and store the result or remove it.
+The functionality of the demo project basically is to  increase, subtract, add a number and store the result or remove it.
 By using the buttons:
 * Increase: it increases the result by 1
 * Decrease: it decreases the result by 1
@@ -9,10 +9,10 @@ By using the buttons:
 * Remove: it removes the result from the state results
 
 Specifically in a technical perspective:
-* Adds a midlware simple logger
+* Adds a middleware simple logger
 * Adds Redux DevTools configuration
-* Creates action creators
-* Handles asychronous code by using the middlware package called [thunk] (https://github.com/reduxjs/redux-thunk)
+* Creates action creators and reducers
+* Handles asynchronous code by using the middleware package called [thunk] (https://github.com/reduxjs/redux-thunk)
 * Structures the reducers and actions folder as it can be implemented in bigger projects 
 
 ## To run the project
