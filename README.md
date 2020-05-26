@@ -1,4 +1,6 @@
-This is a simple demo project showing best practices of redux advance.
+This is a simple demo project showing best practices of redux advance.<br/>
+You can checkout this demo project [here](https://www.stellaloizou.eu/react-redux-advance-sample/)
+
 
 The functionality of the demo project basically is to  increase, subtract, add a number and store the result or remove it.
 By using the buttons:
